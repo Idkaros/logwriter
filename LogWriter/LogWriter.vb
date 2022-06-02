@@ -22,6 +22,23 @@ Public Class LogWriter
         End Try
     End Sub
 
+    Public Shared Sub WriteLog(ByVal e As Excepcion)
+        Try
+            WriteLog(e.Message())
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Public Shared Sub WriteLog(ByVal e As Excepcion, ByRef pStatusBar As SAPbouiCOM.StatusBar)
+        Try
+            WriteLog(e.Message())
+            pStatusBar.SetText(e.Message(), BoMessageTime.bmt_Medium, BoStatusBarMessageType.smt_Warning)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     Public Shared Sub WriteLog(ByVal e As Exception)
         Try
             WriteLog(e.StackTrace())
