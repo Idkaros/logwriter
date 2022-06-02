@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\logwriter\\LogWriter\\LogWriter.vbproj": {}
+    "C:\\Users\\Manuel.Cespedes\\source\\repos\\Idkaros\\logwriter\\LogWriter\\LogWriter.vbproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\logwriter\\LogWriter\\LogWriter.vbproj": {
+    "C:\\Users\\Manuel.Cespedes\\source\\repos\\Idkaros\\logwriter\\LogWriter\\LogWriter.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\logwriter\\LogWriter\\LogWriter.vbproj",
+        "projectUniqueName": "C:\\Users\\Manuel.Cespedes\\source\\repos\\Idkaros\\logwriter\\LogWriter\\LogWriter.vbproj",
         "projectName": "LogWriter",
-        "projectPath": "C:\\Proyectos\\logwriter\\LogWriter\\LogWriter.vbproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\logwriter\\LogWriter\\obj\\",
+        "projectPath": "C:\\Users\\Manuel.Cespedes\\source\\repos\\Idkaros\\logwriter\\LogWriter\\LogWriter.vbproj",
+        "packagesPath": "C:\\Users\\Manuel.Cespedes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel.Cespedes\\source\\repos\\Idkaros\\logwriter\\LogWriter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manuel.Cespedes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
