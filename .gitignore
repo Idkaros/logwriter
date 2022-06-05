@@ -334,7 +334,8 @@ healthchecksdb
 *.ard
 
 # Exclusiones Exxis localizacion-paraguay
-# **/bin/**/*.b1s
+LogWriter/bin
+LogWriter/obj/debug
 # **/bin/**/*.pdb
 # **/bin/**/*.exe
 # **/ActivosFijos.dll
