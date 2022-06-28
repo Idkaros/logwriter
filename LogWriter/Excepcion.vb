@@ -1,8 +1,9 @@
 ﻿Public Class Excepcion
     Inherits Exception
+    Private Const _mensaje_predeterminado As String = "Ha ocurrido algo, contacte con el soporte técnico."
 
     Public Sub New()
-        MyBase.New()
+        MyBase.New(_mensaje_predeterminado)
     End Sub
 
     Public Sub New(message As String)
