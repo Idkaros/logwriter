@@ -74,7 +74,7 @@ namespace Services
                 }
 
             }
-            catch (Exception ex) { }
+            catch { }
         }
         //END: grupo #1
 
